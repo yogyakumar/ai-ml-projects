@@ -6,21 +6,15 @@ meaningful segments using **unsupervised clustering (K-Means / Agglomerative
 Clustering)**, then served through an interactive **Streamlit** web app that
 predicts a new customer's segment in real time.
 
-**🔗 Live demo:** _add your Streamlit Cloud link here after deploying_
+**🔗 Live demo:** https://yogya-smartcart-clustering.streamlit.app/
 
----
 
 ## 📸 Screenshots
 
-_Add 2–3 screenshots of your running app here, e.g.:_
 
-```markdown
 ![Predict tab](screenshots/predict_tab.png)
 ![Segment overview tab](screenshots/overview_tab.png)
-```
 
-(Take a screenshot of each tab while `streamlit run app.py` is running, save
-them in a `screenshots/` folder in this repo, and they'll show up above.)
 
 ---
 
@@ -76,8 +70,8 @@ smartcart_app/
 ## ▶️ Run locally
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/yogyakumar/smartcart-clustering.git
+cd smartcart-clustering
 pip install -r requirements.txt
 python train.py          # trains the model and creates artifacts/
 streamlit run app.py      # launches the web app at localhost:8501
