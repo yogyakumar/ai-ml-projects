@@ -16,7 +16,9 @@ import numpy as np
 import joblib
 import streamlit as st
 
-ARTIFACTS_DIR = "artifacts"
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ARTIFACTS_DIR = os.path.join(BASE_DIR, "artifacts")
 
 st.set_page_config(page_title="SmartCart Segment Predictor", page_icon="🛒", layout="wide")
 
