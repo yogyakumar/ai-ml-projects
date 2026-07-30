@@ -1,4 +1,4 @@
-# AI-Mission-OS
+# PrepForge
 
 A personal placement + AI/ML prep command center — built with Streamlit + SQLite.
 

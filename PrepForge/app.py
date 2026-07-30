@@ -1,5 +1,5 @@
 """
-app.py — AI-Mission-OS entry point.
+app.py — PrepForge entry point.
 Handles auth (login / signup) then shows the Dashboard.
 Other modules live in pages/ and are auto-discovered by Streamlit's
 multipage navigation once a user is logged in.
@@ -12,7 +12,7 @@ import streamlit as st
 
 from database import db
 
-st.set_page_config(page_title="AI-Mission-OS", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="PrepForge", page_icon="🚀", layout="wide")
 db.init_db()
 
 QUOTES = [
@@ -26,7 +26,7 @@ QUOTES = [
 
 
 def login_signup_screen():
-    st.title("🚀 AI-Mission-OS")
+    st.title("🚀 PrepForge")
     st.caption("Your placement + AI/ML prep command center")
 
     tab_login, tab_signup = st.tabs(["Login", "Create account"])

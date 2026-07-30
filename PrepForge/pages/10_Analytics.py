@@ -84,7 +84,7 @@ def build_pdf_report():
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(0, 10, "AI-Mission-OS — Weekly Report", ln=True)
+    pdf.cell(0, 10, "PrepForge — Weekly Report", ln=True)
     pdf.set_font("Helvetica", "", 11)
     pdf.cell(0, 8, f"User: {user['username']}   Generated: {date.today().isoformat()}", ln=True)
     pdf.ln(4)
